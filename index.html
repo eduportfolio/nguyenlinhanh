@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nguyễn Linh Anh — Portfolio</title>
+    <meta name="description"
+      content="Personal portfolio of Nguyễn Linh Anh — student, communicator, aspiring brand strategist.">
+    <link rel="icon" href="data:,">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Work+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap"
+      rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+
+    <div class="grain"></div>
+
+    <header class="nav" id="nav">
+      <a href="#top" class="nav__mark">Linh Anh<span class="nav__dot">.</span></a>
+      <nav class="nav__links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#academics">Academics</a>
+        <a href="#awards">Awards</a>
+        <a href="#research">Research</a>
+        <a href="#work">Work</a>
+        <a href="#activities">Activities</a>
+        <a href="#contact" class="nav__cta">Contact</a>
+      </nav>
+      <button class="nav__toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </header>
+
+    <main id="top">
+
+      <!-- 1. HERO + ABOUT -->
+      <section class="hero" id="hero">
+        <div class="hero__inner">
+          <p class="eyebrow">Class of 2026 · Vinschool The Harmony</p>
+          <h1 class="hero__title">
+            Nguyễn Linh Anh is <span class="hero__title-em">building brands</span>, one strategy at a time.
+          </h1>
+          <p class="hero__lede">
+            A student who treats every team, campaign, and classroom like a brand problem worth solving —
+            bridging analytical thinking with strategic communication, and data with story.
+          </p>
+          <div class="hero__stats">
+            <div class="stat-chip"><strong>8.0</strong><span>IELTS</span></div>
+            <div class="stat-chip"><strong>5×A/A*</strong><span>IGCSE</span></div>
+            <div class="stat-chip"><strong>Gold Team</strong><span>World Scholar's Cup</span></div>
+          </div>
+          <div class="hero__actions">
+            <a href="#activities" class="btn btn--primary">See the work</a>
+            <a href="#contact" class="btn btn--ghost">Get in touch</a>
+          </div>
+        </div>
+        <div class="hero__portrait">
+          <img src="assets/profile.jpg" alt="Portrait of Nguyễn Linh Anh">
+          <div class="hero__portrait-tag">Head of HR<br>Circle of Courage</div>
+        </div>
+      </section>
+
+      <!-- ABOUT ME -->
+      <section class="about" id="about">
+        <div class="section-head">
+          <p class="eyebrow eyebrow--dark">About me</p>
+          <h2>Four ideas I keep coming back to</h2>
+        </div>
+        <div class="pillars">
+          <article class="pillar">
+            <span class="pillar__no">Ability</span>
+            <p>I excel at bridging analytical thinking with strategic communication — data-driven audience analysis,
+              persuasive narratives, and optimizing team workflows around individual psychological motivations.</p>
+          </article>
+          <article class="pillar">
+            <span class="pillar__no">Aspiration</span>
+            <p>I want to become a strategic brand architect who scales high-impact, purpose-driven enterprises —
+              synthesizing consumer psychology and data analytics to shape industries with ethical values and community
+              benefit.</p>
+          </article>
+          <article class="pillar">
+            <span class="pillar__no">Creativity</span>
+            <p>Faced with a stalled project workflow, I bypassed generic job descriptions to design a psychological
+              "talent audit," realigning tasks around individual motivations to exceed targets by 40%.</p>
+          </article>
+          <article class="pillar">
+            <span class="pillar__no">Commitment</span>
+            <p>When my IGCSE mock scores plateaued, I designed a rigid, subject-specific tracking system for my weakest
+              topics and stuck to it daily for three months — until I hit full A/A* in the official exams.</p>
+          </article>
+        </div>
+      </section>
+
+      <!-- 2. ACADEMICS -->
+      <section class="academics" id="academics">
+        <div class="section-head section-head--light">
+          <p class="eyebrow eyebrow--light">Academics</p>
+          <h2>Results that back it up</h2>
+        </div>
+
+        <div class="score-grid">
+          <div class="score-card score-card--feature">
+            <span class="score-card__value">8.0</span>
+            <span class="score-card__label">IELTS Overall Score</span>
+          </div>
+          <div class="score-card">
+            <span class="score-card__grade">A*</span>
+            <span class="score-card__label">English as a First Language</span>
+          </div>
+          <div class="score-card">
+            <span class="score-card__grade">A</span>
+            <span class="score-card__label">Mathematics<br>(without Coursework)</span>
+          </div>
+          <div class="score-card">
+            <span class="score-card__grade">A* A*</span>
+            <span class="score-card__label">Coordinated Sciences</span>
+          </div>
+          <div class="score-card">
+            <span class="score-card__grade">A</span>
+            <span class="score-card__label">Global Perspectives</span>
+          </div>
+          <div class="score-card">
+            <span class="score-card__grade">A*</span>
+            <span class="score-card__label">Business Studies</span>
+          </div>
+          <div class="score-card score-card--pending">
+            <span class="score-card__grade">In progress</span>
+            <span class="score-card__label">SAT — sitting soon</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- 3. AWARDS -->
+      <section class="awards" id="awards">
+        <div class="section-head">
+          <p class="eyebrow eyebrow--dark">Awards &amp; recognition</p>
+          <h2>A running scoreboard</h2>
+        </div>
+
+        <ol class="timeline">
+          <!-- ITEM 1 -->
+          <li class="timeline__item">
+            <div class="timeline__year">2025</div>
+            <div class="timeline__body">
+              <h3>Outstanding IGCSE Performance</h3>
+              <p class="timeline__org">Vinschool System</p>
+              <p>Recognized among 91 students network-wide for achieving full A/A* across all IGCSE examinations.</p>
+
+              <div class="timeline__media">
+                <button class="activity__img-btn" data-group="igcse" type="button"
+                  aria-label="View IGCSE certificate photos">
+                  <img src="assets/activities/igcse/1.jpg" alt="IGCSE Certificate photo 1">
+                  <span class="activity__count">1 / 2</span>
+                </button>
+              </div>
+            </div>
+          </li>
+
+          <!-- ITEM 2 -->
+          <li class="timeline__item">
+            <div class="timeline__year">2023–25</div>
+            <div class="timeline__body">
+              <h3>World Scholar's Cup</h3>
+              <p class="timeline__org">Bangkok Global &amp; Hanoi Regional Rounds</p>
+              <p>
+                <strong>Team:</strong> Gold Team Overall, 4th Trophy Champion Team, 2nd Trophy Team Bowl.<br>
+                <strong>Individual:</strong> multiple Gold and Silver medals across Debate, Writing, Science &amp;
+                Technology,
+                Literature &amp; Media, and Arts over two consecutive years.
+              </p>
+
+              <div class="timeline__media">
+                <button class="activity__img-btn" data-group="wsc" type="button"
+                  aria-label="View World Scholar's Cup photos">
+                  <img src="assets/h&a/IMG_2798.PNG" alt="World Scholar's Cup photo 1">
+                  <img src="assets/h&a/IMG_3237.JPG" alt="World Scholar's Cup photo 2">
+                  <span class="activity__count">1 / 2</span>
+                </button>
+              </div>
+            </div>
+          </li>
+
+          <!-- ITEM 3 -->
+          <li class="timeline__item">
+            <div class="timeline__year">2020–26</div>
+            <div class="timeline__body">
+              <h3>Academic &amp; Leadership Awards</h3>
+              <p class="timeline__org">Vinschool System</p>
+              <p>Academic Excellence &amp; EFL Star Award (2020–2026) for consistent top academic performance and
+                dedication
+                to English learning; Super Citizen Award (2020–2021) for integrity, community responsibility, and
+                proactive
+                leadership.</p>
+
+              <div class="timeline__media">
+                <button class="activity__img-btn" data-group="leadership" type="button"
+                  aria-label="View Leadership awards photos">
+                  <img src="assets/h&a/esl.jpg" alt="Academic & Leadership photo 1">
+                  <img src="assets/h&a/super.jpg" alt="Academic & Leadership photo 2">
+                  <span class="activity__count">1 / 2</span>
+                </button>
+              </div>
+            </div>
+          </li>
+
+          <!-- ITEM 4 -->
+          <li class="timeline__item">
+            <div class="timeline__year">2022</div>
+            <div class="timeline__body">
+              <h3>Grand Winner, Spelling Bee</h3>
+              <p class="timeline__org">Cambridge English Fest</p>
+              <p>Outperformed participants through exceptional linguistic accuracy and mastery of complex vocabulary
+                under
+                time pressure.</p>
+
+              <div class="timeline__media">
+                <button class="activity__img-btn" data-group="spelling-bee" type="button"
+                  aria-label="View Spelling Bee photo">
+                  <img src="assets/h&a/bee.jpg" alt="Spelling Bee photo 1">
+                </button>
+              </div>
+            </div>
+          </li>
+
+          <!-- ITEM 5-->
+          <li class="timeline__item">
+            <div class="timeline__year">2025–26</div>
+            <div class="timeline__body">
+              <h3>Asia Business Simulation & YES Business Quiz</h3>
+              <p class="timeline__org">ASEEDER & Yale Entrepreneurial Society</p>
+              <p>Earned the <strong>Bronze Seeds Award</strong> in the YES Business Quiz and actively participated in
+                the Asia
+                Business Simulation 2025–26.</p>
+
+              <div class="timeline__media">
+                <button class="activity__img-btn" data-group="abs-yes" type="button"
+                  aria-label="View Asia Business Simulation & YES Business Quiz certificates">
+                  <img
+                    src="assets/h&a/YES Business Quiz - Bronze Seeds Award_NGUYEN LINH ANH_Vinschool - The Harmony.jpeg"
+                    alt="YES Business Quiz Bronze Seeds Award Certificate">
+
+                  <img src="assets/h&a/Participation Certificate_NGUYEN LINH ANH_Vinschool - The Harmony.jpeg"
+                    alt="Asia Business Simulation Participation Certificate">
+
+                  <span class="activity__count">1 / 2</span>
+                </button>
+              </div>
+            </div>
+          </li>
+        </ol>
+      </section>
+
+      <!-- 4. RESEARCH -->
+      <section class="research" id="research">
+        <div class="research__card">
+          <p class="eyebrow eyebrow--light">Research</p>
+          <h2>New work, in progress</h2>
+          <p class="research__note">
+            This section is reserved for upcoming research — from consumer psychology to fan-community
+            marketing. Content is being prepared and will land here soon.
+          </p>
+          <span class="pill-status">Coming soon</span>
+        </div>
+      </section>
+
+      <!-- 5. PERSONAL PRODUCTS -->
+      <section class="work" id="work">
+        <div class="section-head">
+          <p class="eyebrow eyebrow--dark">Personal work</p>
+          <h2>Things I've made</h2>
+        </div>
+        <div class="work-grid">
+          <div class="work-card work-card--placeholder">
+            <div class="work-card__plus">+</div>
+            <p>Add a project — case study, campaign, deck, or design</p>
+          </div>
+          <div class="work-card work-card--placeholder">
+            <div class="work-card__plus">+</div>
+            <p>Add a project — case study, campaign, deck, or design</p>
+          </div>
+          <div class="work-card work-card--placeholder">
+            <div class="work-card__plus">+</div>
+            <p>Add a project — case study, campaign, deck, or design</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 6. EXTRACURRICULAR ACTIVITIES -->
+      <section class="activities" id="activities">
+        <div class="section-head section-head--light">
+          <p class="eyebrow eyebrow--light">Extracurricular activities</p>
+          <h2>Where the strategy gets tested</h2>
+        </div>
+
+        <div class="activity-list">
+
+          <!-- HOẠT ĐỘNG: VinUniversity Future Founders Bootcamp (TỪ ẢNH) -->
+          <article class="activity" data-group="vinuni-bootcamp">
+            <div class="activity__gallery">
+              <button class="activity__img-btn" data-group="vinuni-bootcamp" data-index="0">
+                <img src="assets/s&a/FFB.jpg"
+                  alt="VinUniversity Future Founders Bootcamp Certificate of Completion">
+                <!-- Chỉ có 1 ảnh, không cần span.activity__count -->
+              </button>
+            </div>
+            <div class="activity__body">
+              <p class="activity__date">Summer 2026</p>
+              <h3>Participant <span>· Future Founders Bootcamp 2026</span></h3>
+              <p class="activity__desc-tag">Entrepreneurship Lab, VinUniversity</p>
+              <ul>
+                <li>Successfully completed all activities within the intensive innovation and entrepreneurship program.
+                </li>
+                <li>Recognized for enthusiastic engagement and commendable effort among competitive student cohorts.
+                </li>
+              </ul>
+            </div>
+          </article>
+
+          <!-- HOẠT ĐỘNG: Circle of Courage (GIỮ NGUYÊN) -->
+          <article class="activity" data-group="circle-of-courage">
+            <div class="activity__gallery">
+              <button class="activity__img-btn" data-group="circle-of-courage" data-index="0">
+                <img src="assets/s&a/coc.JPG" alt="Circle of Courage activity photo 1">
+              </button>
+            </div>
+            <div class="activity__body">
+              <p class="activity__date">2025 — Present</p>
+              <h3>Head of Human Resources <span>· Circle of Courage</span></h3>
+              <p class="activity__desc-tag">Cancer support &amp; community education initiative</p>
+              <ul>
+                <li>Designed a centralized task-tracking system for 10 HR members, reducing bottlenecks and accelerating
+                  awareness campaigns by 30%.</li>
+                <li>Skill-mapped 20 contributors to align strengths with deliverables, ensuring 100% on-time completion
+                  of
+                  educational content.</li>
+              </ul>
+            </div>
+          </article>
+
+          <!-- HOẠT ĐỘNG: OBAS Group Volunteer (BỔ SUNG ẢNH VÀO GALLERY CHUẨN) -->
+          <article class="activity" data-group="obas-group">
+            <div class="activity__gallery">
+              <button class="activity__img-btn" data-group="obas-group" data-index="0">
+                <!-- Thay ảnh cũ bằng ảnh chứng chỉ làm ảnh đại diện -->
+                <img src="assets/s&a/BBSMV.jpg" alt="OBAS Group Certificate of Attendance">
+                <span class="activity__count">1 / 2</span>
+              </button>
+            </div>
+            <div class="activity__body">
+              <p class="activity__date">October 2025</p>
+              <h3>Event Volunteer <span>· OBAS Group</span></h3>
+              <p class="activity__desc-tag">British Boarding Schools Meeting Vietnam 2025</p>
+              <ul>
+                <li>Managed registrations and logistical flow for 250+ attendees and 20 British school delegates.</li>
+                <li>Acted as primary on-site liaison, resolving 15 real-time logistical inquiries to maintain 100%
+                  operational
+                  efficiency.</li>
+              </ul>
+            </div>
+          </article>
+
+          <!-- HOẠT ĐỘNG: AN Project (TỪ ẢNH) -->
+          <article class="activity" data-group="an-project">
+            <div class="activity__gallery">
+              <button class="activity__img-btn" data-group="an-project" data-index="0">
+                <img src="assets/s&a/an_project.jpg" alt="AN Project Appreciation Certificate">
+              </button>
+            </div>
+            <div class="activity__body">
+              <p class="activity__date">x</p>
+              <h3>Member of Human Resources <span>· AN Project</span></h3>
+              <p class="activity__desc-tag">Community service initiative</p>
+              <ul>
+                <li>Received Appreciation for excellent contribution and commitment to the project's goals.</li>
+                <li>Optimized internal workflows and contributor alignment within the HR department.</li>
+              </ul>
+            </div>
+          </article>
+
+          <!-- HOẠT ĐỘNG: British Summer School (TỪ 3 ẢNH CHỨNG CHỈ) -->
+          <article class="activity" data-group="british-summer-school">
+            <div class="activity__gallery">
+              <button class="activity__img-btn" data-group="british-summer-school" data-index="0">
+                <!-- Chọn ảnh chứng chỉ khóa học làm ảnh cover (Giả định là 1.jpg) -->
+                <img src="assets/s&a/british (1).jpg" alt="British Summer School Course Certificate">
+                <img src="assets/s&a/british (2).jpg" alt="British Summer School Course Certificate2">
+                <img src="assets/s&a/british (3).jpg" alt="British Summer School Course Certificate3">
+                <span class="activity__count">1 / 3</span>
+              </button>
+            </div>
+            <div class="activity__body">
+              <p class="activity__date">Summer 2024</p>
+              <h3>Student Academics of the Future <span>· British Summer School</span></h3>
+              <p class="activity__desc-tag">3-week residential program at Oundle School, UK</p>
+              <ul>
+                <li>Completed a rigorous academic course including Core English, Learning &amp; Innovation, and Focus
+                  Academic.</li>
+                <li>Named <strong>Contributor of the Week</strong> for outstanding classroom engagement.</li>
+                <li>Awarded <strong>Bedroom of the Week</strong> for fostering a welcoming and friendly environment for
+                  peers.
+                </li>
+              </ul>
+            </div>
+          </article>
+
+          <!-- HOẠT ĐỘNG: i9MUN Conference (TỪ ẢNH) -->
+          <article class="activity" data-group="i9mun">
+            <div class="activity__gallery">
+              <button class="activity__img-btn" data-group="i9mun" data-index="0">
+                <img src="assets/s&a/delegate.jpg" alt="i9MUN Conference Certificate of Participation">
+              </button>
+            </div>
+            <div class="activity__body">
+              <p class="activity__date">17th May 2024</p>
+              <h3>Delegate of Singapore <span>· First i9MUN Conference</span></h3>
+              <p class="activity__desc-tag">Vinschool Times City Secondary MUN</p>
+              <ul>
+                <li>Represented Singapore in the UNHRC committee.</li>
+                <li>Debated and collaborated on resolutions addressing "The Impact of Death Penalty on Human Rights."
+                </li>
+              </ul>
+            </div>
+          </article>
+
+          <!-- HOẠT ĐỘNG: The Hestia (GIỮ NGUYÊN) -->
+          <article class="activity" data-group="hestia">
+            <div class="activity__gallery">
+              <button class="activity__img-btn" data-group="hestia" data-index="0">
+                <img src="assets/s&a/hestia.JPG" alt="The Hestia activity photo">
+              </button>
+            </div>
+            <div class="activity__body">
+              <p class="activity__date">2023 — 2024</p>
+              <h3>Vice Head of Translation <span>· The Hestia</span></h3>
+              <p class="activity__desc-tag">Global culinary storytelling platform</p>
+              <ul>
+                <li>Directed 4 translators managing bilingual workflows for 30+ posts, ensuring brand consistency and
+                  driving
+                  25% audience growth.</li>
+                <li>Analyzed engagement metrics of 15,000+ Facebook followers to pivot content strategy, increasing
+                  average
+                  interaction rates by 15%.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="activity" data-group="eloquentia">
+            <div class="activity__gallery">
+              <button class="activity__img-btn" data-group="eloquentia" data-index="0">
+                <img src="assets/s&a/eloquentia.jpg" alt="Eloquentia Club Certificate of Participation">
+              </button>
+            </div>
+            <div class="activity__body">
+              <p class="activity__date">2022 — 2023</p>
+              <h3>Collaborator, Operations Dept <span>· Eloquentia Club</span></h3>
+              <p class="activity__desc-tag">Vinschool Public Speaking Club</p>
+              <ul>
+                <li>Contributed to the success of club operations and logistics for public speaking events.</li>
+                <li>Developed coordination skills through managing internal and external communications.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="activity" data-group="anatolie-project">
+            <div class="activity__gallery">
+              <button class="activity__img-btn" data-group="anatolie-project" data-index="0">
+                <img src="assets/s&a/anatolie.jpg" alt="Anatolie Project activity photo 1">
+              </button>
+            </div>
+            <div class="activity__body">
+              <p class="activity__date">2023 — 2024</p>
+              <h3>HR Member <span>· Anatolie Project</span></h3>
+              <p class="activity__desc-tag">Cultural empathy fundraising initiative</p>
+              <ul>
+                <li>Led a 5-person sales team using audience research to target 4 key Ho Guom locations, exceeding the 2
+                  million VND fundraising goal by 40%.</li>
+                <li>Optimized inventory and cost-tracking for 300+ charity goods, minimizing waste and maximizing
+                  donation
+                  proceeds.</li>
+              </ul>
+            </div>
+          </article>
+
+          <!-- HOẠT ĐỘNG: Clover English Crew (GIỮ NGUYÊN) -->
+          <article class="activity" data-group="clover-english">
+            <div class="activity__gallery">
+              <button class="activity__img-btn" data-group="clover-english" data-index="0">
+                <img src="assets/activities/clover-english/1.jpg" alt="Clover English Crew activity photo 1">
+                <span class="activity__count">1 / 3</span>
+              </button>
+            </div>
+            <div class="activity__body">
+              <p class="activity__date">2019 — 2020</p>
+              <h3>English Mentor <span>· Clover English Crew</span></h3>
+              <p class="activity__desc-tag">Youth language accessibility program</p>
+              <ul>
+                <li>Designed and delivered 40+ lesson plans at Phat Tich Center, achieving a 15% improvement in student
+                  conversational fluency.</li>
+                <li>Facilitated virtual learning for a 15-student cohort, boosting active participation through
+                  collaborative
+                  classroom management.</li>
+              </ul>
+            </div>
+          </article>
+
+        </div>
+      </section>
+
+    </main>
+
+    <!-- LIGHTBOX -->
+    <div class="lightbox" id="lightbox" aria-hidden="true">
+      <button class="lightbox__close" id="lightboxClose" aria-label="Close">&times;</button>
+      <button class="lightbox__nav lightbox__nav--prev" id="lightboxPrev" aria-label="Previous photo">&#8249;</button>
+      <figure class="lightbox__figure">
+        <img id="lightboxImg" src="" alt="">
+        <figcaption id="lightboxCounter"></figcaption>
+      </figure>
+      <button class="lightbox__nav lightbox__nav--next" id="lightboxNext" aria-label="Next photo">&#8250;</button>
+    </div>
+
+    <footer class="footer" id="contact">
+      <div class="footer__top">
+        <h2>Let's talk brand, strategy,<br>or the next big idea.</h2>
+        <a href="mailto:lasheepgirl@gmail.com" class="btn btn--lime">lasheepgirl@gmail.com</a>
+      </div>
+      <div class="footer__bottom">
+        <span>Nguyễn Linh Anh</span>
+        <span>(+84) 343 889 493</span>
+        <span>Vinschool The Harmony</span>
+        <span>&copy; 2026</span>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+
+</html>
